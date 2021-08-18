@@ -1,88 +1,66 @@
-body{
-    background-color: skyblue;
+*{
+    margin: 0;
+    padding: 0;
 }
-#h1{
-    text-align: center;
-    font-size:60px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+body{
+   background-color: rgb(180, 147, 211);
 }
 .box{
-    width: 450px;
-    height: 400px;
     position: relative;
-    background-color:#fff ;
-    top: 80px;    
-    margin: 0 auto;
+    top: 60px;
+    height: 620px;
+    width: 620px;
     border-radius: 30px;
-}
-#b1{
-    border-radius: 10px;
-    width: 80px;
-    height: 30px;
-    margin-left: 80px;
-}
-#b1:hover{
-    background-color: gray;
-}
-#b2{
-    border-radius: 10px;
-    width: 80px;
-    height: 30px;
-    margin-left: 120px;
-}
-#b2:hover{
-    background-color: gray;
-}
-#t1{
-    border-radius: 10px;
-    height: 25px;
-    outline: none;
-}
-#t1:focus{
-    box-shadow: inset 0 0 2px 2px rgba(0,0,0,.3);
+    background-color:skyblue;
+    margin: 0 auto;
 
 }
-#t2{
-    border-radius:10px;
-    height: 25px;
-    outline: none;
+.nav{
+    height: 40px;
+    background-color: rgb(87, 79, 79);
 }
-#t2:focus{
-    box-shadow: inset 0 0 2px 2px rgba(0,0,0,.3);
+.card{
+    border-radius: 30px;
+    width: 290px;
+    height: 290px;
+    float: left;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
 }
-#fp{
-    text-decoration: none;
+.card:hover{
+    box-shadow: inset 0 0 3px 3px rgba(0,0,0,.5);
+}
+#workspace{
+    padding: 8px;
+    float: right;
     color: gray;
+    text-decoration: none;
 }
-#fp:hover{
-    color: black;
+#workspace:hover{
+    color: #fff;
 }
-.name{
-    position: relative;
-    top: 80px;
-    text-align: center;
-  
+#login{
+    padding: 8px;
+    float: right;
+    color: gray;
+    text-decoration: none;
 }
-.password{
-    position: relative;
-    top: 130px;
-    text-align: center;
+#login:hover{
+    color:#fff; 
 }
-.login{
-    position: relative;
-    top: 180px;
-    display: inline-block;
-    text-align: center;
+#info{
+    padding: 8px;
+    float: right;
+    color: gray;
+    text-decoration: none;
 }
-.register{
-    position: relative;
-    top: 180px;
-    display: inline-block;
-    text-align: center;
+#info:hover{
+    color:#fff; 
 }
-.reme{
-    position: relative;
-    top: 220px;
-    text-align: center;
+.img{
+    margin: 50px;
 }
