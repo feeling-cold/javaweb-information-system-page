@@ -68,3 +68,7 @@ body{
     float: left;
     padding: 8px;
 }
+.a{
+    text-decoration: none;
+    color: black;
+}

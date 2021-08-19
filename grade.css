@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(243, 197, 71);
+}
+.box{
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(243, 197, 71);
+    border-radius: 30px;
+}
+.header{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nameno{
+    float: left;
+    background-color: skyblue;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.course{
+    float: right;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.summerize{
+    float: left;
+    background-color: rgb(222, 199, 241);
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+
+}
+.raise{
+    float: right;
+    background-color: rgb(79, 211, 171);
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+
+}
+.input{
+    border-radius: 8px;
+    height:25px ;
+    margin: 13px 0 20px 0;
+    outline: none;
+}
+.input:focus{
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0,.3);
+}
+.b{
+    height: 30px;
+    border-radius: 8px;
+
+}
+.b:hover{
+    background-color: gray;
+}
+#analyse{
+    outline: none;
+    margin-top: 35px;
+    border-radius: 17px;
+    margin-bottom: 25px;
+}
+.inputr{
+    height: 30px;
+    margin-top: 110px;
+    border-radius: 8px;
+    margin-bottom: 70px;
+}
