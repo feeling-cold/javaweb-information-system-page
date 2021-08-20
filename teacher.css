@@ -6,6 +6,7 @@ body{
     font-size: 30px;
 }
 .box{
+    
     margin: 0 auto;
     background-color: rgb(215, 240, 250);
     border-radius: 30px;
@@ -27,4 +28,7 @@ body{
     width: 80px;
     height: 30px;
     border-radius: 8px;
+}
+.b1:hover{
+    background-color: gray;
 }
