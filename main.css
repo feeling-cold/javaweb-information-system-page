@@ -40,8 +40,15 @@ body{
     color: gray;
     text-decoration: none;
 }
+#workspace .image{
+    display: none;
+    
+}
 #workspace:hover{
     color: #fff;
+}
+#workspace:hover .image{
+    display: block;
 }
 #login{
     padding: 8px;
